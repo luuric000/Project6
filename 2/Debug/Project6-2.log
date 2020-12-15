@@ -1,0 +1,6 @@
+﻿  Car.cpp
+  main.cpp
+C:\Users\Richa\source\repos\highline-cpp-stl-starter\2\main.cpp(17,8): warning C4102: 'std': unreferenced label
+  Utility.cpp
+  Generating Code...
+  Project6-2.vcxproj -> C:\Users\Richa\source\repos\highline-cpp-stl-starter\2\Debug\Project6-2.exe

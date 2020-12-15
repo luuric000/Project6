@@ -13,9 +13,19 @@ int main() {
     std::cout << "Are there any primes? " << (anyPrime(integers) ? "yes" : "no") << "\n";
 }
 
+bool Prime(int i) {
+    for (int j = 2; j < i; j++) {
+        if (i % j == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
 bool anyPrime(const std::vector<int>& values) {
     // TODO: return true if any of the values are prime numbers
-    auto result = false;
+
+    auto result = std::any_of(std::begin(values), std::end(values), Prime);
 
     return result;
 }

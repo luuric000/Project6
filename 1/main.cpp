@@ -10,5 +10,11 @@ int main() {
     std::cout << "Initial: " << cars << "\n";
 
     // TODO: print out the cars in reverse order
-    std::cout << "Reversed: " << "TODO" << "\n";
+    std::vector<Car> reversedPrice = cars;
+    std::reverse(std::begin(reversedPrice), std::end(reversedPrice));
+    
+    std::cout << "Reversed: " << reversedPrice << "\n";
+
+
+
 }
